@@ -2,7 +2,7 @@ import time
 from datetime import datetime as dt
 
 
-host_temp= r"C:\Windows\System32\drivers\etc\hosts"   #Si hay una n antes de el backslash se tomara como special caracter, therefore es recomendable agregar 'r' al inicio
+host_temp= r"C:\Windows\System32\drivers\etc\hosts"   #In order to not be taken as a special character, add the "r" before the string
 redirect= "127.0.0.1"
 website_list=["www.facebook.com", "facebook.com", "www.youtube.com"]
 
